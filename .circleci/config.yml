@@ -13,6 +13,7 @@ jobs:
 
       - run:
           name: Install Snyk
+          # Ignore scripts
           command: npm install -g snyk
 
       - run:
