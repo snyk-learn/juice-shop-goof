@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   snyk_scan:
     docker:
-      - image: cimg/node:20.19 # UPDATED Node Version
+      - image: cimg/node:20.19 # UPDATED Node Version 
     steps:
       - checkout
 
