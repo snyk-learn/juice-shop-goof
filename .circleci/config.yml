@@ -24,6 +24,7 @@ jobs:
           command: snyk test --all-projects
 
       - run:
+          when: always
           name: Snyk Code Scan
           command: snyk code test
 
