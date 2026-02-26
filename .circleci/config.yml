@@ -40,3 +40,4 @@ workflows:
                 - master
                 - /snyk-fix-.*/
                 - /snyk-upgrade-.*/
+                - /kh-deloitte-.*/
