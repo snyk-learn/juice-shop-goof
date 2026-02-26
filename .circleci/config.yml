@@ -38,3 +38,5 @@ workflows:
               only:
                 - main
                 - master
+                - /snyk-fix-.*/
+                - /snyk-upgrade-.*/
